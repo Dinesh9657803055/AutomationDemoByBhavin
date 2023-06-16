@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="12" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-08T20:53:20 IST" name="Suite" finished-at="2023-06-08T20:54:29 IST" duration-ms="69365">
+    <groups>
+    </groups>
+    <test started-at="2023-06-08T20:53:20 IST" name="MotorAdminProduction" finished-at="2023-06-08T20:54:29 IST" duration-ms="69365">
+      <class name="WebFunction.CreateOrderTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:WebFunction.CreateOrderTest@2892d68]" started-at="2023-06-08T20:53:44 IST" name="beforeClass" finished-at="2023-06-08T20:53:44 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="CreateOrder()[pri:1, instance:WebFunction.CreateOrderTest@2892d68]" started-at="2023-06-08T20:53:44 IST" name="CreateOrder" finished-at="2023-06-08T20:53:56 IST" duration-ms="11733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateOrder -->
+      </class> <!-- WebFunction.CreateOrderTest -->
+      <class name="WebFunction.CreateProductTest">
+        <test-method is-config="true" signature="assignvalue()[pri:0, instance:WebFunction.CreateProductTest@1a6d8329]" started-at="2023-06-08T20:53:20 IST" name="assignvalue" finished-at="2023-06-08T20:53:20 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignvalue -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:WebFunction.CreateProductTest@1a6d8329]" started-at="2023-06-08T20:53:20 IST" name="setup" finished-at="2023-06-08T20:53:30 IST" duration-ms="10122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:WebFunction.CreateProductTest@1a6d8329]" started-at="2023-06-08T20:53:30 IST" name="beforeClass" finished-at="2023-06-08T20:53:30 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="LoginBeforeCreateProduct()[pri:0, instance:WebFunction.CreateProductTest@1a6d8329]" started-at="2023-06-08T20:53:30 IST" name="LoginBeforeCreateProduct" finished-at="2023-06-08T20:53:38 IST" duration-ms="7790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginBeforeCreateProduct -->
+        <test-method signature="CreateProduct()[pri:1, instance:WebFunction.CreateProductTest@1a6d8329]" started-at="2023-06-08T20:53:38 IST" name="CreateProduct" finished-at="2023-06-08T20:53:44 IST" duration-ms="6453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateProduct -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:WebFunction.CreateProductTest@1a6d8329]" started-at="2023-06-08T20:54:29 IST" name="closeBrowser" finished-at="2023-06-08T20:54:30 IST" duration-ms="942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- WebFunction.CreateProductTest -->
+      <class name="WebFunction.CreateLineItemsTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:WebFunction.CreateLineItemsTest@5ab956d7]" started-at="2023-06-08T20:53:56 IST" name="beforeClass" finished-at="2023-06-08T20:53:56 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="CreateLineItem()[pri:1, instance:WebFunction.CreateLineItemsTest@5ab956d7]" started-at="2023-06-08T20:53:56 IST" name="CreateLineItem" finished-at="2023-06-08T20:54:09 IST" duration-ms="12551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLineItem -->
+        <test-method signature="ToVerifyValidation()[pri:2, instance:WebFunction.CreateLineItemsTest@5ab956d7]" started-at="2023-06-08T20:54:09 IST" name="ToVerifyValidation" finished-at="2023-06-08T20:54:11 IST" duration-ms="2210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToVerifyValidation -->
+        <test-method signature="ToVerifyLineItemFilter()[pri:3, instance:WebFunction.CreateLineItemsTest@5ab956d7]" started-at="2023-06-08T20:54:11 IST" name="ToVerifyLineItemFilter" finished-at="2023-06-08T20:54:29 IST" duration-ms="18155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToVerifyLineItemFilter -->
+      </class> <!-- WebFunction.CreateLineItemsTest -->
+    </test> <!-- MotorAdminProduction -->
+  </suite> <!-- Suite -->
+</testng-results>
